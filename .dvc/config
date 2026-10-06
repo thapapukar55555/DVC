@@ -1,0 +1,4 @@
+[core]
+    remote = myremotee
+['remote "myremotee"']
+    url = ../s3
