@@ -9,7 +9,9 @@ df = pd.DataFrame(data)
 # # Adding new row to df for V2 # 
 
 new_row_loc = {'Name' : 'Pukar', 'Age' : 20, 'City' : 'City1'} 
-df. loc[len(df . index) ] = new_row_loc # # Adding new row to df for V3 # new_row_loc2 = {'Name' : 'V3', 'Age': 30, 'City' : 'City1'} # df. loc[len(df.index)] = new_row_loc2
+df. loc[len(df . index) ] = new_row_loc # # Adding new row to df for V3 # 
+new_row_loc2 = {'Name' : 'Thapa', 'Age': 30, 'City' : 'City2'} # 
+df. loc[len(df.index)] = new_row_loc2
 
 #Ensure the "data" directory exists at the root level 
 
